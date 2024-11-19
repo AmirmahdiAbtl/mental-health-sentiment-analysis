@@ -14,7 +14,24 @@ This project implements a **mental health sentiment analysis system** using thre
 - **Evaluation**: Measured model performance using accuracy, precision, recall, and F1-score.  
 
 ---
+## 🗃️ Data
 
+The dataset used for this project is available from [Zenodo](https://zenodo.org/records/3941387). It contains text data from online platforms such as Reddit, categorized into multiple mental health topics. These categories include:
+
+- Depression  
+- Anxiety  
+- Suicide watch  
+- ADHD  
+- Autism  
+- Addiction  
+- Schizophrenia  
+- Alcoholism  
+- Loneliness  
+- Healthy  
+
+The data is preprocessed, with cleaning tasks such as removal of stopwords, stemming, and text normalization applied before model training.
+
+---
 
 ## 1. **Multinomial Naive Bayes (Machine Learning)**
 
